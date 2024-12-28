@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-color: lightskyblue;
+}
+#top{
+    background-color: black;
+    color: white;
+    height: 3rem;
+    line-height: 3rem;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+.choice{
+ 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.choice:hover{
+    height: ;
+    opacity: 0.8;
+    background-color: black;
+    border: 0.3rem solid black;
+}
+
+img{
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.scores{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4rem;
+    gap: 5rem;
+}
+
+p{
+    font-size: 2rem;
+    font-weight: 1000;
+    padding: 1rem;
+    width: 15rem;
+    height: 2rem;
+}
+
+.c-score , .u-score{
+    font-size: 4rem;
+}
+
+.user-score, .comp-score{
+    background-color: rgba(200, 75, 75, 0.46);
+    color: black;
+}
+
+.msg-con{
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
+    display: inline-block;  
+}
+
+.pas{
+    padding: 1rem;
+}
+
+.ibtn{
+    height: 4rem;
+    width: 12rem;
+    margin-top: 1rem; 
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.ibtn:hover{
+    opacity: 0.9;
+    width: 12.5rem;
+    box-shadow: 0.5rem 0.5rem 1rem black;
+}
+
